@@ -36,16 +36,7 @@ class ChartsContainer extends React.Component {
   };
 
   static defaultProps = {
-    exchanges: [
-      "bitfinex/btcusd",
-      "bitstamp/btcusd",
-      "gdax/btcusd",
-      "okex/btcusdt",
-      "bitmex/btcusd-perpetual-futures",
-      "bitmex/btcusd-quarterly-futures",
-      "bitflyer/btcfxjpy",
-      "okcoin/btcusd-quarterly-futures"
-    ]
+    exchanges: defaultConfig.exchanges
   };
 
   render() {

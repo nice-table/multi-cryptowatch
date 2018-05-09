@@ -1,5 +1,15 @@
 export const defaultConfig = {
   interval: "1m",
+  exchanges: [
+    "bitfinex/btcusd",
+    "bitstamp/btcusd",
+    "gdax/btcusd",
+    "okex/btcusdt",
+    "bitmex/btcusd-perpetual-futures",
+    "bitmex/btcusd-quarterly-futures",
+    "bitflyer/btcfxjpy",
+    "okcoin/btcusd-quarterly-futures"
+  ],
 
   // Config to be sent to the cryptowatch charts via postMessage
   cryptowatch: {
