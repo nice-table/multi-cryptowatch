@@ -1,19 +1,19 @@
 export const defaultConfig = {
   interval: "1m",
   exchanges: [
-    "bitfinex/btcusd",
-    "bitstamp/btcusd",
-    "gdax/btcusd",
-    "okex/btcusdt",
-    "bitmex/btcusd-perpetual-futures",
-    "bitmex/btcusd-quarterly-futures",
-    "bitflyer/btcfxjpy",
-    "okcoin/btcusd-quarterly-futures"
+    "markets/bitfinex/btc/usd",
+    "markets/bitstamp/btc/usd",
+    "markets/gdax/btc/usd",
+    "markets/okex/btc/usdt",
+    "futures/bitmex/btc/usd/perpetual",
+    "futures/bitmex/btc/usd/quarterly",
+    "markets/bitflyer/btcfx/jpy",
+    "futures/okcoin/btc/usd/quarterly"
   ],
 
   // Config to be sent to the cryptowatch charts via postMessage
   cryptowatch: {
-    theme: "albuquerque",
+    theme: "candycane",
     config: {
       grid: true,
       indicators: {

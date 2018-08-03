@@ -6,7 +6,9 @@ Shows a grid of cryptowatch charts.
 
 Configuration can be changed in `src/charts/defaultConfig.js`. You can timeframe/interval in-app by placing mouse pointer in upper left corner.
 
-To run:
+## Startup
+
+Open a terminal and run these commands:
 
 ```
 npm install
